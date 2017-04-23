@@ -1,2 +1,6 @@
 # leccion-14
-Calidacion de formulario de datos
+Validacion de formulario de datos
+
+Hice el primer push y revise que git y github esten bien sincronizados. Ahora a empezar con el codigo en html.
+
+
