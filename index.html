@@ -6,13 +6,16 @@
 </head>
 <body>
 	<h1>Formulario de datos</h1>
-	<p>Nombre</p>
 	<form action="">
-		<input type="text">
-		<input type="text">
+		<p>
+			<label for="nombre">Nombre</label><br>
+			<input type="text" name="nombre" required>
+		</p>
+			<label for="ape">Apellido</label><br>
+			<input type="text" name="ape" required>
 		<p>
 			<label for="fono">Teléfono</label><br>
-			<input type="tel" name="fono" pattern=".{9,}" title="9 números"required>
+			<input type="tel" name="fono" pattern=".{9,}" title="9 números" required>
 		</p>
 		<select name="" id="">
 			<option value=""></option>
