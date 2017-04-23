@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Mi primer formulario</title>
 </head>
-<body>
-	<h1>Formulario de datos</h1>
+<body> <center>
+	<h1>Formulario de Datos</h1>
 	<form action="">
 		<p>
 			<label for="nombre">Nombre</label><br>
@@ -17,8 +17,13 @@
 			<label for="fono">Teléfono</label><br>
 			<input type="tel" name="fono" pattern=".{9,}" title="9 números" required>
 		</p>
-		<select name="" id="">
-			<option value=""></option>
+		Escoge tu auto para continuar<br><br>
+		<select required>
+			<option value="">Escoge tu auto</option>
+			<option value="Volvo">Volvo</option>
+			<option value="Saab">Saab</option>
+			<option value="Mercedes">Mercedes</option>
+			<option value="Audi">Audi</option>
 		</select>
 		<p>
 			<label for="email">Email</label><br>
@@ -29,8 +34,9 @@
 			<input type="password" name="pw" pattern=".{6,}" title="6 o más caracteres" required>
 		</p>
 		<p>
-			<input type="submit" name="" value="send">
+			<input type="submit" name="" value="Send">
 		</p>
 	</form>
+	</center>
 </body>
 </html>
