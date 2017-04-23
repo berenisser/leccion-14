@@ -10,13 +10,16 @@
 	<form action="">
 		<input type="text">
 		<input type="text">
-		<input type="text">
+		<p>
+			<label for="fono">Teléfono</label><br>
+			<input type="tel" name="fono" pattern=".{9,}" title="9 números"required>
+		</p>
 		<select name="" id="">
 			<option value=""></option>
 		</select>
 		<p>
 			<label for="email">Email</label><br>
-			<input type="email" name="email">
+			<input type="email" name="email" required>
 		</p>
 		<p>
 			<label for="pw">Crea tu contraseña</label><br>
